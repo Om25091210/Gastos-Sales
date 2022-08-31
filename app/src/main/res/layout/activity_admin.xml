@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    tools:context=".Admin.admin">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:animateLayoutChanges="true">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_back_view"
+                android:contentDescription="@string/image"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_back"
+                app:layout_constraintBottom_toTopOf="@+id/textView2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView"
+                tools:ignore="ImageContrastCheck" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/control_panel"
+                android:textColor="@color/light_yellow"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/submit_txt1"
+            app:layout_constraintEnd_toEndOf="@+id/submit_txt1"
+            app:layout_constraintTop_toTopOf="@+id/submit_txt1" />
+
+        <EditText
+            android:id="@+id/sales_code"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_edt_text"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter sales code"
+            android:importantForAutofill="no"
+            android:inputType="textNoSuggestions"
+            android:maxLength="10"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayout5"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout5"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/sales_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_edt_text"
+            android:gravity="start|top"
+            android:hint="Enter name"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/sales_code"
+            app:layout_constraintStart_toStartOf="@+id/sales_code"
+            app:layout_constraintTop_toBottomOf="@+id/sales_code"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/sales_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edt_text"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter sales Ph no."
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/sales_name"
+            app:layout_constraintStart_toStartOf="@+id/sales_name"
+            app:layout_constraintTop_toBottomOf="@+id/sales_name"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/rm_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edt_text"
+            android:hint="Date of joining (Tap to select)"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/sales_phone"
+            app:layout_constraintStart_toStartOf="@+id/sales_phone"
+            app:layout_constraintTop_toBottomOf="@+id/sales_phone" />
+
+        <Spinner
+            android:id="@+id/select"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edt_text"
+            android:padding="2dp"
+            android:textColor="#070707"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/rm_date"
+            app:layout_constraintStart_toStartOf="@+id/rm_date"
+            app:layout_constraintTop_toBottomOf="@+id/rm_date"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <AutoCompleteTextView
+            android:id="@+id/asm_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edt_text"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/asm_code"
+            android:importantForAutofill="no"
+            android:inputType="textNoSuggestions"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/select"
+            app:layout_constraintStart_toStartOf="@+id/select"
+            app:layout_constraintTop_toBottomOf="@+id/select"
+            tools:ignore="SpeakableTextPresentCheck">
+
+        </AutoCompleteTextView>
+
+        <AutoCompleteTextView
+            android:id="@+id/tl_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_edt_text"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/tl_code"
+            android:importantForAutofill="no"
+            android:inputType="textNoSuggestions"
+            android:padding="15dp"
+            android:textSize="16sp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="@+id/select"
+            app:layout_constraintStart_toStartOf="@+id/select"
+            app:layout_constraintTop_toBottomOf="@+id/asm_name"
+            tools:ignore="SpeakableTextPresentCheck">
+
+        </AutoCompleteTextView>
+
+        <TextView
+            android:id="@+id/submit_txt1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_card_red"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/submit"
+            android:textColor="@color/light_yellow"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@+id/select"
+            app:layout_constraintStart_toStartOf="@+id/select"
+            app:layout_constraintTop_toBottomOf="@+id/tl_name"
+            tools:ignore="TextContrastCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

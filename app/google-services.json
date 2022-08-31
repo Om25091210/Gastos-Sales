@@ -1,0 +1,199 @@
+{
+  "project_info": {
+    "project_number": "828672159733",
+    "firebase_url": "https://gastosprovidermvp-default-rtdb.firebaseio.com",
+    "project_id": "gastosprovidermvp",
+    "storage_bucket": "gastosprovidermvp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828672159733:android:5ba06647e4305ad121babc",
+        "android_client_info": {
+          "package_name": "com.cu.crazypocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828672159733-3jrcai1u31bs747e9ekt45crulo4d6i4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.crazypocket",
+            "certificate_hash": "3d4918f07c4261d1ffddb8833db33c6695e9d3b9"
+          }
+        },
+        {
+          "client_id": "828672159733-s5a3aah6vd0tu6vh4gsd7opf8qvccmne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAQ73fjJ_hJNqXAaitepnDD-iOjZdB9mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828672159733-s5a3aah6vd0tu6vh4gsd7opf8qvccmne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828672159733-l8clhjmusorhtd66p2gsrsa0hqriigq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.project.GastosProvider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828672159733:android:0a7c6cd15c2ca08821babc",
+        "android_client_info": {
+          "package_name": "com.cu.gastosmerchant1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828672159733-5ochju8a6ddihlqk0gvvtj72mpqs4329.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "fb0a699615b63e13075960427c7923444509ad6a"
+          }
+        },
+        {
+          "client_id": "828672159733-886ptoqvmrgp54oac6fpecvl6hn35thj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "a05b63d6f413ba57578dfcf207d48b32b97c27ad"
+          }
+        },
+        {
+          "client_id": "828672159733-do7g27eq584o8p3gdisqdi51iinkpupt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "e6dbff1bb7d49ec5b753577135de9255888a9c3e"
+          }
+        },
+        {
+          "client_id": "828672159733-fqrre0v7viosd567bobk9qskdham547k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "29ee045ae021121ff2314d4ea47b68973d7fb341"
+          }
+        },
+        {
+          "client_id": "828672159733-hdb5pmof7qicb8mothm66v45ja0fc377.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "a282018ed237ad48d06072c6950c864d126628a7"
+          }
+        },
+        {
+          "client_id": "828672159733-iji74ju4h38fsj2j3qb49n0td1u0c80j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "8edafa08ed655753a2172ea028502822db2fa818"
+          }
+        },
+        {
+          "client_id": "828672159733-l8b0n0nmlvhk6jtd8cdj3d8t5c4de23e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "cf388bb7fa6f7ea09ceb2c9b0d8493204dfae0aa"
+          }
+        },
+        {
+          "client_id": "828672159733-qhg4nqugch2ga63gnisouhr07jm35itp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastosmerchant1",
+            "certificate_hash": "3d4918f07c4261d1ffddb8833db33c6695e9d3b9"
+          }
+        },
+        {
+          "client_id": "828672159733-s5a3aah6vd0tu6vh4gsd7opf8qvccmne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAQ73fjJ_hJNqXAaitepnDD-iOjZdB9mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828672159733-s5a3aah6vd0tu6vh4gsd7opf8qvccmne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828672159733-l8clhjmusorhtd66p2gsrsa0hqriigq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.project.GastosProvider"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828672159733:android:dc41f8f9b34120af21babc",
+        "android_client_info": {
+          "package_name": "com.cu.gastossales"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828672159733-out8qsgsse044sfhketc2ldtrglpemb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cu.gastossales",
+            "certificate_hash": "cf388bb7fa6f7ea09ceb2c9b0d8493204dfae0aa"
+          }
+        },
+        {
+          "client_id": "828672159733-s5a3aah6vd0tu6vh4gsd7opf8qvccmne.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAQ73fjJ_hJNqXAaitepnDD-iOjZdB9mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828672159733-s5a3aah6vd0tu6vh4gsd7opf8qvccmne.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "828672159733-l8clhjmusorhtd66p2gsrsa0hqriigq9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.project.GastosProvider"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

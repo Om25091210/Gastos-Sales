@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Gastos Sales</string>
+    <string name="search_code">Search Code</string>
+    <string name="search_provider">Search Provider</string>
+    <string name="provider_s_count">Provider\'s count</string>
+    <string name="provider_revenue">Provider Revenue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">image</string>
+    <string name="search">Search</string>
+    <string name="account_information">Account Information</string>
+    <string name="area_sales_manager">AREA SALES MANAGER</string>
+    <string name="let_s_track">Let\'s Track</string>
+    <string name="gastos_sales">GASTOS SALES</string>
+    <string name="team_leader">Team Leader</string>
+    <string name="calendar">Calendar</string>
+    <string name="didn_t_you_receive_any_code">Didn\'t you receive any code?</string>
+    <string name="resend_new_code">RESEND NEW CODE</string>
+    <string name="Phonenumber">Phone number</string>
+    <string name="sales_type">Sales Code</string>
+    <string name="business_growth_expert">Business Growth Expert</string>
+    <string name="control_panel">Control panel</string>
+    <string name="add_an_admin">Add an Admin</string>
+    <string name="enter_number">Enter number</string>
+    <string name="submit">Submit</string>
+    <string name="asm_code">ASM code</string>
+    <string name="tl_code">TL code</string>
+    <string name="log_out">Log out</string>
+    <string-array name="itemselect">
+        <item>ASM</item>
+        <item>TL</item>
+        <item>BGL</item>
+    </string-array>
+</resources>
